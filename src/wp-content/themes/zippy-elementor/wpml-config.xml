@@ -1,0 +1,26 @@
+<!-- 
+cmsmasters_package: Handmade Shop
+cmsmasters_version: 1.0.0
+-->
+<wpml-config>
+    <admin-texts>
+        <key name="cmsmasters_options_handmade_shop_header">
+            <key name="handmade_shop_header_top_line_short_info" />
+            <key name="handmade_shop_header_top_line_donations_but_text" />
+            <key name="handmade_shop_header_donations_but_text" />
+            <key name="handmade_shop_header_add_cont_cust_html" />
+        </key>
+		<key name="cmsmasters_options_handmade_shop_footer">
+            <key name="handmade_shop_footer_html" />
+            <key name="handmade_shop_footer_copyright" />
+        </key>
+		<key name="cmsmasters_options_handmade_shop_single_project">
+            <key name="handmade_shop_portfolio_project_details_title" />
+        </key>
+		<key name="cmsmasters_options_handmade_shop_single_profile">
+            <key name="handmade_shop_profile_post_details_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

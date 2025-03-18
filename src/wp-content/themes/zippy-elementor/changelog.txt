@@ -1,0 +1,441 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Handmade Shop
+ * @version 	1.3.5
+ */
+ 
+-----------------------------------------------------------------------
+				CHANGELOG
+-----------------------------------------------------------------------
+Version 1.3.5:
+	
+	1. Updated WooCommerce templates
+	2. Updated plugins
+--------------------------------------
+Version 1.3.4:
+	
+	1. Updated WooCommerce templates
+	2. Updated plugins
+--------------------------------------
+Version 1.3.3:
+	
+	1. Updated WooCommerce templates
+	2. Fixed Color Picker
+	3. Updated plugins
+--------------------------------------
+Version 1.3.2:
+	
+	1. Improved import of demo content
+	2. Fixed social icons warning
+	3. Updated plugins
+--------------------------------------
+Version 1.3.1:
+	
+	1. Fixed Posts Tabs widget checkboxes
+	2. Fixed wishlist button
+	3. Updated plugins
+--------------------------------------
+Version 1.3.0:
+	
+	1. Fixed an error in the Clients shortcode when an image is not selected
+	2. Fixed warnings when an Appointable product is used
+	3. Updated WooCommerce templates
+	4. Updated plugins
+--------------------------------------
+Version 1.2.9:
+	
+	1. Fixed zoom magnifier
+	2. Updated plugins
+--------------------------------------
+Version 1.2.8:
+	
+	1. Fixed header overlaps by default option
+	2. Fixed twitter
+	3. Fixed pagination in shortcodes
+	4. Updated plugins
+--------------------------------------
+Version 1.2.7:
+	
+	1. Fixed WooCommerce dynamic cart
+	2. Updated WooCommerce template
+	3. Updated plugins
+--------------------------------------
+Version 1.2.6:
+
+	1. Fixed tribe event series
+	2. Updated plugins
+--------------------------------------
+Version 1.2.5:
+
+	1. Fix for WooCommerce 6.9.0
+	2. Fix for webp format in jQuery iLightBox
+	3. Fixed apply custom fonts in gutenberg editor.
+	4. Fixed fatal error on PHP 8
+	5. Updated plugins
+	6. Updated translates
+--------------------------------------
+Version 1.2.4:
+
+	1. Fixed pingbacks & trackbacks.
+	2. Fixed twitter connection.
+	3. Update Plugins
+	4. Updated translates
+--------------------------------------
+Version 1.2.3:
+
+	1. Update Plugins
+--------------------------------------
+Version 1.2.2:
+
+	1. Update Plugins
+--------------------------------------
+Version 1.2.1:
+
+	1. Fixed MailPoet notice
+	2. Fixed demo content
+	3. Fixed Wishlist notice
+	4. Fixed Wishlist heart
+	5. Update Plugins
+--------------------------------------
+Version 1.2.0: files operations:
+
+	1. Portfolio Shortcode fix
+--------------------------------------
+Version 1.1.9: files operations:
+
+	1. Added function wp_body_open()
+	2. Fixed jQuery Migrate notices
+	3. Fixed Load More
+	4. Fix for short syntax in js <div />
+	5. Fix iLightbox
+	6. Fix register settings
+	7. Added deprecated function for Flickr widget
+	8. Update isotope js
+	9. Update Plugins
+	10. Update Translate
+--------------------------------------
+Version 1.1.8: files operations:
+
+	1. revslider 6.3.4
+	2. WP 5.6 columns fix
+	3. WP 5.6 drag'n'drop fix
+	4. CC update (WP 5.6 section and column update fix)
+	5. Update LightBox isotope
+	6. WP 5.6 import demo content fix
+--------------------------------------
+Version 1.1.7: files operations:
+
+	1. Gutenberg styles fixes
+	2. Update Woocommerce
+	3. Envato theme check fix
+	4. Yoast SEO breadcrumbs fix
+	5. Classic Editor fix
+	6. PHP 7.4 implode fix
+	7. Gutenberg plugin notices and CC button fixes
+	8. Shop sidebar fix
+	9. WP 5.6 pop-up fix
+	10. Update isotope
+	11. Update plugins
+--------------------------------------
+Version 1.1.6: files operations:
+
+	1. WP 5.5 Color Picker fix
+	2. Removed Form Builder plugin
+	3. revslider 6.2.20
+	4. LayerSlider 6.11.2
+--------------------------------------
+Version 1.1.4: files operations:
+
+	1. revslider 6.2.9
+	2. layerslider 6.11.1
+	3. woo 4.1.1
+	4. Gutenberg Fixes
+	5. fix revslider && layerslider conflict
+	6. CC update 2.4.3
+--------------------------------------
+Version 1.1.4: files operations:
+
+	1. Add into Theme Settings checkbox, which do cart icon hidden
+	2. Fix for Update Dynamic Cart(if product without image)
+	3. Fixed theme description. Replaced 'columnns' to 'columns'
+	4. Fixed  "Columns Custom Height Behavior"
+	5. Fix bug (WP 5.1<) when fullwidth page during the import are inserted into 'content-wrap'
+	6. Removed word Custom from setting General\Content & General\Footer
+	7. Custom meta box functions are allowed for design only. Removed 'Read More' from post options if CC inactive
+	8. New version jquery.isotope.min.js
+	9. Logo 2x(retina) must has width as 1x (no retina);
+	10. Update languages
+	11. Update plugins
+	12. Add scrolling for cmsmasters_table
+	13. Fixed empty sidebar in gutenberg
+	14. Fix for update_post_meta. Value must be a string
+	15. Gutenberg heading shortcode line-height fix in editor
+	16. Woo Update 3.6.0
+	17. Fix for comment-form-cookies (show if checked 'Show comments cookies opt-in checkbox.')
+	18. Fix for activating cmsmasters plugins
+	19. Fixed project puzzle and recommended proportion project puzzle image
+--------------------------------------
+Version 1.1.3: files operations:
+
+	1. Remove inline styles from admin
+	2. Fix adaptive for clients 5 column
+	3. Add One Click Demo Import plugin Support
+	4. Fixed align default images
+	5. Refixed double h1 in open product.
+	6. Change google fonts and add local fonts
+	7. Fixed website in Contact Info Widget
+	8. Fixed style for input[type=date]
+	9. Added function run reinit import options (Load default settings and options for posts when is first activating theme)
+	10. Fix for social sharing shortcode (pin it button)
+	11. Change default layout and archive layout in settings
+	12. Change layout to fullwidth if sidebar is empty
+	13. Update Woo 3.5.2
+	14. Insert gutenberg editor to theme
+	16. Remove envato market plugin zip archive from theme
+	19. Fix product category shortcode columns
+	20. Update Languages
+	21. Update Plugins
+--------------------------------------
+Version 1.1.2: files operations:
+
+	1. Update Plugins
+	2. Fix sitemap page (Changed from "No categories" by default in WP to "No tags")
+	3. Checkout coupon description fix
+	4. Fix headline background attachment for touch device
+	5. Fix to subpage navigation items
+	6. Smooth Sticky update
+	7. Fix for iLightbox in load more gallery
+	8. Update for Gutenberg
+	9. Remove library that are already pre-packaged with WordPress
+	10. Included library imagesloaded instead
+	11. Fixes for Envato Theme Check
+--------------------------------------
+Version 1.1.1: files operations:
+
+	1. Fix for prev next posts function (if order by categories)
+	2. Added cursor pointer to select
+	3. Changed default select arrow image
+	4. Fixed adaptive gallery-columns
+	5. Fixed adaptive archive title
+	6. Reset padding for ul, ol in comments.
+	7. Added clear for pricing item for responsive (four columns)
+	8. Add sticky column
+	9. Disabled html_minification because of w3 validation errors
+	10. Update Woo 3.4.0
+	11. Update comments (add cookies checkbox)
+	12. Add privacy policy link to footer
+	13. Add Cookie Notice plugin to plugin activator
+	14. Woo terms and conditions style fix
+	15. Fix order details for variable product
+	16. MailPoet 3
+	17. Add folder theme-vars https://www.screencast.com/t/QhnnPy2jsK7
+	18. Languages update
+	19. Fix Woocommerce Store Notice.
+	20. Added new icon "tripadvisor"
+	21. Fix for cmsmasters_rgba2rgb function
+	22. Fix colors for autofill fields
+	23. Disabled hover for button[disabled]
+	24. Add excerpt length attr for handmade_shop_post_exc_cont function
+	25. replace image-rendering for small images
+	26. Fix width and height for logo retina (for validator)
+	27. Changed escaping function attributes esc_html__() to esc_attr__()
+	28. escaping data (echo $)
+	29. warning for $_SERVER['HTTP_USER_AGENT'], replace to getenv
+	30. warning for force_balance_tags
+	31. Plugins update
+--------------------------------------
+Version 1.1.0: files operations:
+
+	1. Fix pagination size
+	2. Fix Widget Custom Menu empty item
+	3. Change sidebar defaults
+	4. Fix for one page navigation
+	5. Fix single posttype title 
+	6. Nothing was displayed when a menu location was not set
+	7. Fix for commetns theme
+	7. Fix for scrollspy (if not one page)
+	9. Fix post tabs widget
+	10. Add link to featured block
+	11. Fix empty bottom sidebar
+	12. Update plugins
+	13. Woo 3.3.3
+	14. Languages update
+	15. Ajax search fix
+--------------------------------------
+Version 1.0.9: files operations:
+
+	1. Update plugins
+	2. Woo 3.3.0
+	3. Copyright fix
+--------------------------------------
+Version 1.0.8: files operations:
+
+	1. Fix Preview Image Size in Admin Panel
+	2. Add Category Order to Post Nav box
+	3. errors in safari
+	4. Disabled autoHeight(owl slider) on MAC(safari)
+	5. Fix columns behavior on safari
+	6. Posts Tabs Widget
+	7. Screen reader text fix (WordPress 4.9)
+	8. Deleted function sidebarDefaultText
+	9. Add margin-bottom to table tag
+	10. Added margin for tag <pre>
+	11. Fix for mega menu navigation on resize
+	12. Fix styles for WP editor (WordPress 4.9)
+	13. Fix for timetable list
+	14. Fix for overriding WordPress globals (Soft Reject Green Planet)
+	15. Moved function register_taxonomy_for_object_type() in plugin
+	16. Fix on empty functions
+	17. Update languages
+	18. Update Plugins
+--------------------------------------
+Version 1.0.7: files operations:
+
+	1. Fix gallery widget
+	2. Fix wishlist add to cart button
+	3. Fix for logo on small screens
+	4. Update color-picker-alpha
+	5. Add Child themes enqueue_style priority fix
+--------------------------------------
+Version 1.0.6: files operations:
+
+	1. Update WOO 3.2.0
+	2. $woocommerce->cart->get_cart_url() - is deprecated, use wc_get_cart_url() (proverte gde y vas ewe ona ispolzuets9)
+	3. Update order_details styles
+	4. Fix for One page navigation
+	5. Sliders update
+	6. Languages
+	7. Fix margin between widgets in sidebar shortcode
+	8. Envato market
+	9. Fix Terms&Contitions
+--------------------------------------
+Version 1.0.5: files operations:
+	
+	1. Break long words in standard blog on small resolutions
+	2. Fix for touch on iphone, ipad
+	3. Update Woo (deprecated function)
+	4. Fix for nav dropdown toggle script (example: mega menu 4 items in 2 columns)
+	5. Styling Icon Shortcode after updates
+	6. Add text in Like & Comments functions
+	7. Moving third-party libraries to individual files
+	8. Fix identical images in ilightbox (variable product variations without image show product featured image)
+	9. Fix shortcode heading in column (columns_behavior)
+	10. Fix for Header Overlaps Content translations
+	11. Wishlist add to cart button fix.
+	12. Hover in portfolio puzzle on iphone
+	13.Shop quick view button and wishlist button show on touch devices
+	14. Update languages
+	15. Added Theme Settings All Theme Styles
+	16. Fix Isotope Mode for all except masonry & puzzle
+	17. WOO dynamic cart fix
+	18. Fix Featured Image in Open Post description text
+	19. Fix archive categories
+	20. Fix for profile and project features (one title or one value)
+	21. Add localize script for theme-style scripts
+	22. Fix for single post img, add lightbox
+	23. Fix for twitter and gMap api keys notices
+	24. Add option for projects (project puzzle image)
+--------------------------------------
+Version 1.0.4: files operations:
+	
+	1. Fix Icon Box with icon before title
+	2. Change columns styles
+	3. Added checkbox "don`t show" on open standard project to hide featured image
+	4. Reload browser.php
+	5. Fix for isotope postWidth (for responsive relayout)
+	6. Fix for column (flex)
+	7. Fix empty pagination
+	8. Fix columns behavior on safari (devises)
+	9. Languages fix
+	10. Fix for product category puzzle featured thumbnail
+	11. Fix for hover slider image resolution
+	12. Update Languages
+	13. Fix for hover slider image description
+	14. Fix for single post img, add lightbox
+	15. Fix for shortcodes lightbox (dont show default WP text options)
+--------------------------------------
+Version 1.0.3: files operations:
+	
+	1. Fix add to cart button
+	2. Review translation fix
+	3. Gallery post fix(pagination)
+	4. Review translation fix
+	5. Yith Woocommerce Ajax Search integration
+	6. Finish Yith Woocommerce Ajax Search integration
+	7. Replace addons folders
+	8. Update Description
+	9. Fix gallery shortcode (ilightbox)
+	10. Update isotope
+	11. Fix plugin activator plugins path
+	12. Replace wp_reset_query to wp_reset_postdata
+	13. Fix for fonts settings (remove default value for font-weight and font-style)
+	14. Add escapes to breadcrumbs
+	15. Timeline responsive fix
+	16. Show social icons and share if CC is active
+	17. Fix for comments, pingbacks and trackbacks
+	19. Change columns styles
+	20. profiles horizontal columns clear fix
+	21. Fix for product category grid columns
+	22. Fix for product category isotope
+	23. Fix product category shortcode with quickview button
+	24. Language update
+--------------------------------------
+Version 1.0.2: files operations:
+	
+	1. Added setting to button shortcode - text transform
+	2. Added button style - Border underline
+	3. Fix button shortcode
+	4. fix responsive navigation for (theme first instalation)
+	5. Fix bottom sidebar responsive
+	6. Fix textarea for IE
+	7. Fix buttons shortcode for IE & Edge
+	8. Change root theme files (move to tamplates)
+	9. Change headline function
+	10. Remove searchform and add action for searchform
+	11. Add actions for header
+	12. Move table and ul styles from style.css
+	13. RTL for theme-style
+	14. Move plugins and plugin activator to theme-framework folder
+	15. Fix owl-slider for IE
+	16. Remove rtl from root folder
+	17. templates
+	18. CMSMASTERS_THEME_STYLE
+	19. theme-framework
+	20. style.css
+	21. Theme Style
+	22. Fix for categories icons
+	23. Project link target fix
+	24. Add product count to product category shortcode
+	25. Contact widget fix address text
+	26. Fix stock with count field
+	27. Languages update
+	28. Product category shortcode fix - product output with none selected categories
+--------------------------------------
+Version 1.0.1: files operations:
+
+	1. Plugin Updates
+	2. Added transitions in shortcode Custom Icons
+	3. escaping dynamic data in vasiliy_settings_page_header
+	4. Fix body background color for boxed version
+	5. Rename function cmsmasters_profiles_generate_front_css to cmsmasters_theme_generate_front_css
+	6. Fix for button style 'icon_slide_left' - transition for span
+	7. Fix orderby for popular items
+	8. Fix row no margin
+	9. Fix for project gallery
+	10. Add filters for prev and next text in pagination
+	11. Fix for Woo page title
+	12. Move twitter to CC Mihalich
+	13. Update iLightbox 2.2.1 (https fixed)
+	14. Change "Message" to "Comment" in comment form textarea
+	15. Remove single posts elements from mailpoet subscription page
+	16. Add My account default styles
+	17. Fix styles for terms checkbox
+	18. Fix cmsmasters button "cmsmasters_but_shadow" (jumping at hover)
+	19. Fix transitions in custom icons
+	20. Fix for Woo update 3.0.1
+	21. Escaped javascript in theme
+	22. Rename file Browser.php to browser.php
+	23. Delete message output in comments.php
+	24. Fix for fixed header
+--------------------------------------
+Version 1.0: Release!
