@@ -1,15 +1,19 @@
-// import { DisplayLabel } from './components/DisplayLabel';
+import "../lib/slick/slick.min.js";
+import "../lib/fancybox/jquery.fancybox.min.js";
 
-let Main = {
-  init: async function () {
-
-    // initialize demo javascript component - async/await invokes some 
-    //  level of babel transformation 
-    const displayLabel = new DisplayLabel();
-    await displayLabel.init();
-
-  }
-};
-
-
-// Main.init();
+$(document).ready(function () {
+  $(".gallery-slider").slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 3000,
+    infinite: false,
+    dots: false,
+    arrows: true,
+  });
+  $("[data-fancybox='gallery-slicks']").fancybox({
+    toolbar: true,
+    thumbs: false,
+    hash: false,
+  });
+});
