@@ -125,8 +125,7 @@ class Product extends Single_Base {
 
 	public function print_content() {
 		if ( post_password_required() ) {
-			// PHPCS - It's a safe WP template function
-			echo get_the_password_form(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+			echo get_the_password_form();
 			return;
 		}
 
