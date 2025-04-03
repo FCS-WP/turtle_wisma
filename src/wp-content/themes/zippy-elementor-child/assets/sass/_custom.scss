@@ -30,7 +30,7 @@ h1 {
     &::after {
       content: "";
       flex: 1;
-      height: 2px;
+      height: 1px;
       background-color: $primary-color;
       margin: 0 15px;
       width: 300px;
@@ -130,6 +130,24 @@ button,
   border-color: $accent-color !important;
   color: white !important;
 }
+button {
+  &.jkit-hamburger-menu {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    svg {
+      width: 1.5em !important;
+    }
+  }
+  &.slick-next,
+  &.slick-prev {
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+  &.jkit-close-menu {
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+}
 //---------------------------------------------------------
 #wpadminbar {
   z-index: 9999 !important;
@@ -199,5 +217,23 @@ button,
   .gallery-item.group {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+  }
+  .jkit-menu-wrapper {
+    top: 0;
+    max-width: 100% !important;
+  }
+  .jeg-elementor-kit.jkit-nav-menu {
+    .jkit-menu-wrapper {
+      .jkit-menu li.menu-item-has-children > a svg {
+        margin-left: auto;
+        border: 0 !important;
+      }
+    }
+  }
+  h1 {
+    font-size: 30px !important;
+  }
+  h2{
+    text-align: center !important;
   }
 }
